@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Videographer Website">
+    <meta name="keywords" content="video, footage, reklam, advertisement, görüntü, film, klip, clip, fotoğraf, fotoğrafçılık, photo, 
+    photography,photographer, рекламное объявление, видео, Фото, фотография, видеооператор, камера, изображений, продвижение, 
+    promotion, video edit, edit, kurgu,motion, motion graphic, graphic">
+    <meta name="author" content="Rüşen Gündoğdu">
+
+    <title>MURAD MAMMADOV</title>
+    
+    <link rel="stylesheet" href="style.css" type="text/css">
+    <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+</head>
+<body>
+    
+         <div class="container">
+           
+          
+             <div id="letter">
+
+
+                 <h1>MURAD MAMMADOV</h1>
+                
+            </div>
+             
+             <div id="port">
+                 <ul>
+                     <li>PORTFOLIO
+                          <ul id="portf">
+                              <li><a href="video.html">VIDEO</a></li>
+                              <li><a href="photo.html">PHOTO</a></li>
+                          </ul>
+                     </li>
+                 </ul>
+             </div>
+
+             <div id="and">
+                <ul>
+                    <li>  AND OTHERS...
+                         <ul id="ters">
+                             <li><a href="logo.html">LOGO DESIGN</a></li>
+                             <li><a href="music.html">MUSIC</a></li>
+                         </ul>
+                    </li>
+                </ul>
+            </div>
+
+            <div id="about">
+                <h2><a href="about.html">ABOUT.</a></h2>
+            </div>
+
+            <div id="contact">
+                <h2><a href="contact.html">CONTACT.</a></h2>
+            </div>
+
+            <div class="btn"><span class="fas fa-bars"></span></div>
+
+            <nav class="leftSideMenu">
+                <div class="text" id="menu">MENU
+                <ul>
+                    <li><a href="#" class="port-btn"> PORTFOLIO
+                       
+                    </a>
+                        <ul class="port-show">
+                        <li><a href="video.html">VIDEO</a></li>
+                        <li><a href="photo.html">PHOTO</a></li>
+                        </ul>
+                    </li>
+                       
+                    <li><a href="#"class="and-btn"> AND OTHERS...
+                        
+                    </a>
+                        <ul class="and-show">
+                            <li><a href="music.html">MUSIC</a></li>
+                            <li><a href="logo.html">LOGO DESIGN</a></li>
+                            
+                        </ul>
+                    </li>
+                    <li><a href="about.html">ABOUT.</a></li>
+                    <li><a href="contact.html">CONTACT.</a></li> 
+
+                  </ul>
+            </nav>
+        </div>
+            
+      <script>
+          $('.btn').click(function(){
+            $(this).toggleClass("click");
+            $('.leftSideMenu').toggleClass("show");
+
+          });
+          $('.port-btn').click(function(){
+            $('nav ul .port-show' ).toggleClass("show");
+
+          });
+          $('.and-btn').click(function(){
+            $('nav ul .and-show' ).toggleClass("show1");
+
+          });
+      </script>
+
+</body>
+</html>
